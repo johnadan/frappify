@@ -13,6 +13,10 @@
 	user-zoom:fixed;
 }
 
+#landingpage {
+	height: 100vh;
+}
+
 body {
 	background-image: linear-gradient(to right, #8E2DE2 , #4A00E0);
 }
