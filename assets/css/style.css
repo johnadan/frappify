@@ -13,6 +13,10 @@
 	user-zoom:fixed;
 }
 
+footer {
+	color: black;
+}
+
 #landingpage {
 	height: 100vh;
 }
