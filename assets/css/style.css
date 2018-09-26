@@ -12,6 +12,18 @@ footer {
 	width: 100%;
 }
 
+.home-images {
+	height: 50vh;
+	width: 50vw;
+}
+
+/*.breadcrumb {
+	color: black;
+	z-index: 1;
+	height: 5vh;
+	width: 100%;
+}*/
+
 #landingpage {
 	height: 80vh;
 }
@@ -24,6 +36,8 @@ footer {
 	/*height:10vh;*/
 	/*z-index: 1;*/
 }
+
+
 
 .jumbotron {
 	background: rgba(0,0,0,0.1);
@@ -63,7 +77,12 @@ footer {
 		position: relative;
 		width: auto;
 		max-width: 100% ;
+		z-index:0;
 }	
+
+#missiontext, #visiontext {
+	z-index:1;
+}
 
 /*iframe {
 	transform: translateX(-75%) translateY(-75%);
@@ -84,8 +103,30 @@ h5 {
 }
 
 
-/*#Slide1, #Slide2, #Slide3 {
-	height: 45vh;
+/*.carousel-inner {
+	width: 100%;
+	height: 80vh;
+}*/
+
+.carousel-item {
+	width: 100%;
+	height: 80vh;
+}
+
+
+#Slide1, #Slide2, #Slide3 {
+	height: 80vh;
+	width: 100%;
+}
+
+/*#kkchocooreo {
+	z-index: 1;
+	width: 45%;
+	height: 85%;
+}*/
+
+/*#firstcontent {
+	margin: 0 auto;
 }*/
 
 /*body {
@@ -94,13 +135,24 @@ h5 {
 }*/
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-
+	#kkchocooreo {
+	z-index: 1;
+	width: 45%;
+	height: 85%;
+	}
 } 
 
 /*Mobile*/
 @media only screen and (max-width: 400px) {
 	#landingpage {
-		display: none;
+		/*display: none;*/
+		background-image: url(../images/bg-mb.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		width: auto;
+		max-width: 100% ;
+		height: auto;
 	}
 	/*body {
 		background-image: url(../images/bg-mb.jpeg);
@@ -111,17 +163,22 @@ h5 {
 		max-width: 100% ;
 	}*/
 	#about {
-	background-image: url(../images/bg-mb.jpeg);
+	background-image: url(../images/about-img3.jpeg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		position: relative;
 		width: auto;
 		max-width: 100% ;
+		z-index:0;
 		/*color: gray;*/
 	}	
 #missiontext {
 	color: gray;
+	z-index:1;
 	}
+#visiontext {
+	z-index:1;
+}	
 footer {
 	height: 5vh;
 	width: 100%;
