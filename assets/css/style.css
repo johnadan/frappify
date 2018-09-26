@@ -5,32 +5,128 @@
 	color: white;
 }
 
-@viewport {
-	width: device-width;
-	zoom: 1;
-	min-zoom: .5;
-	max-zoom:3;
-	user-zoom:fixed;
-}
-
 footer {
 	color: black;
+	z-index: 1;
+	height: 5vh;
+	width: 100%;
 }
 
 #landingpage {
-	height: 100vh;
+	height: 80vh;
 }
 
-body {
-	background-image: linear-gradient(to right, #8E2DE2 , #4A00E0);
+#banner {
+	margin-top:20vh;
 }
+
+#contact {
+	/*height:10vh;*/
+	/*z-index: 1;*/
+}
+
+.jumbotron {
+	background: rgba(0,0,0,0.1);
+}
+
+#sendemail {
+	border-radius: 0;
+}
+
+#video-lp {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.stopfade { 
+   opacity: .5;
+}
+
+#home, #gallery, #contact{
+	background-image: linear-gradient(to right, #8E2DE2 , #4A00E0);
+	/*z-index: 0;*/
+	}
+
+#about {
+	background-image: url(../images/about-bg2.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		width: auto;
+		max-width: 100% ;
+}	
+
+/*iframe {
+	transform: translateX(-75%) translateY(-75%);
+}*/
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+ }
+
+h5 {
+	color: black;
+}
+
+.navbar {
+	width: 100%;
+	z-index: 1;
+}
+
+
+/*#Slide1, #Slide2, #Slide3 {
+	height: 45vh;
+}*/
+
+/*body {
+	background-image: linear-gradient(to right, #8E2DE2 , #4A00E0);
+	z-index: 0;
+}*/
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-	
+
 } 
 
 /*Mobile*/
 @media only screen and (max-width: 400px) {
-	
-
+	#landingpage {
+		display: none;
+	}
+	/*body {
+		background-image: url(../images/bg-mb.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		width: auto;
+		max-width: 100% ;
+	}*/
+	#about {
+	background-image: url(../images/bg-mb.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		width: auto;
+		max-width: 100% ;
+		/*color: gray;*/
+	}	
+#missiontext {
+	color: gray;
+	}
+footer {
+	height: 5vh;
+	width: 100%;
+	}
+.navbar {
+	width: 100%;
+	}
 }

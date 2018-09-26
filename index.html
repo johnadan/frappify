@@ -18,11 +18,19 @@
 </head>
 <body>
 
+    <video autoplay loop id="video-lp" muted plays-inline>
+      <source src="assets/videos/video-lp.mp4" type="video/mp4">
+    </video> <!-- end of video background -->   
+
 	<div id="landingpage" class="container-fluid">
 		<div class="row">
 			<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-				<div class="jumbotron jumbotron-fluid">Hey! This is a Landing Page for X Product</div>
+				<div id="banner" class="jumbotron jumbotron-fluid text-center">
+                    <h4 class="display-4">Don't know what <strong>Frappuccino</strong> to sip and indulge for your next <strong>coffee break?</strong></h4>
+                    <h5 class="display-5 mt-5">We can guide you for the best picks and choices for that best ice-blended coffee experience!</h5> 
+                    <button id="cta" type="submit" class="btn btn-outline-dark mt-5"><a href="#home" target= "_top">Yes Please!</a></button>           
+                </div>
 			</div>
 		</div>		
 	</div>
