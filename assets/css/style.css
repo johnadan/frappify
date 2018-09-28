@@ -5,12 +5,20 @@
 	color: white;
 }
 
+/*#kk {
+	height: 100%;
+	width: 150%;
+	text-align: center;
+	padding-right: 175px;
+}*/
+
 footer {
 	color: black;
 	z-index: 1;
 	height: 5vh;
 	width: 100%;
 	position: absolute;
+	padding: 2px;
 	/*bottom: 0;*/
 }
 
@@ -44,7 +52,9 @@ footer {
 	/*z-index: 1;*/
 }
 
-
+#misyon, #bisyon {
+	letter-spacing: 4px;
+}
 
 .jumbotron {
 	background: rgba(0,0,0,0.1);
@@ -78,7 +88,7 @@ footer {
 	}
 
 #about {
-	background-image: url(../images/about-bg3.jpeg);
+	background-image: url(../images/about-bg.jpeg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		position: relative;
