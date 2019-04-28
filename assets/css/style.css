@@ -115,8 +115,23 @@ h5 {
     object-fit: cover;
 }
 
-/*Tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+/*Mobile*/
+@media only screen and (min-width: 411px) and (max-width: 640px){
+#video-lp {
+	display: none;
+	}
+#landingpage {
+		background-image: url(../images/bg-mb.jpeg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		width: auto;
+		max-width: 100%;
+		height: 100vh;
+	}	
+}
+
+@media only screen and (min-width: 401px) and (max-width: 410px) {
 
 	#googlemaps {
 		margin-top: 0px;
@@ -199,14 +214,14 @@ h5 {
 		width: 100%;
 		}
 
-		#kkchocooreo, #darkmocha, #mochaibc, #moolatte, #milkchocomochacillo, #jcoccino, #mochasupreme, #yardshake, #dometwister, #mochafrappe {
-		height: auto;
-		width: auto;
-		}
+	#kkchocooreo, #darkmocha, #mochaibc, #moolatte, #milkchocomochacillo, #jcoccino, #mochasupreme, #yardshake, #dometwister, #mochafrappe {
+	height: auto;
+	width: auto;
+	}
 
-		.card-img-top {
-	    width: 100%;
-	    height: 100vw;
-	    object-fit: cover;
-					}
+	.card-img-top {
+    width: 100%;
+    height: 100vw;
+    object-fit: cover;
+				}
 }
