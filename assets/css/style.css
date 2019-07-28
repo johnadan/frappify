@@ -74,7 +74,7 @@ footer {
 }
 
 #about {
-	background-image: url(../images/about-bg.jpeg);
+	background-image: url(../images/about-bg-min.jpeg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		position: relative;
@@ -139,7 +139,7 @@ h5 {
 	}
 
 #landingpage {
-		background-image: url(../images/bg-mb.jpeg);
+		background-image: url(../images/bg-mb-min.jpeg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		position: relative;
@@ -156,7 +156,7 @@ h5 {
 	}
 
 	#landingpage {
-		background-image: url(../images/bg-mb.jpeg);
+		background-image: url(../images/bg-mb-min.jpeg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		position: relative;
@@ -217,7 +217,7 @@ h5 {
 	}
 
 	#landingpage {
-		background-image: url(../images/bg-mb.jpeg);
+		background-image: url(../images/bg-mb-min.jpeg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		position: relative;
@@ -227,7 +227,7 @@ h5 {
 	}
 
 	#about {
-	background-image: url(../images/about-img2.jpeg);
+	background-image: url(../images/about-img2-min.jpeg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		position: relative;
